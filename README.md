@@ -23,12 +23,14 @@ npm run dev
 "react-router-dom": "^6.22.3",
 "yup": "^1.4.0"
 ```
-## Code Ogranization
+## Code Organization
 
 - Axios instance and tanstack Queryclient are placed in a seperate file with the basic CRUD API calls used.
-- React Router (createBrowserRouter or createHashRouter is used utilizing the object model rather than the route component.  Children and outlets are used for page navigation
+- React Router (createBrowserRouter or createHashRouter) is used utilizing the object model rather than the route component.  Children and outlets are used for page navigation
 - Clean imports at top of files, broken down into libraries for easy readability
-- File Structure is broken in Pages and components 
+- File Structure is broken down in Pages and components based on routes 
+
+
 
 
 
